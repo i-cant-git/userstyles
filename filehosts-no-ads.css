@@ -1,0 +1,7 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("uploadgig.com") {
+  .priceBox, .circle_success, .circle_success + .premium_dl {
+    display: none !important;
+  }
+}
