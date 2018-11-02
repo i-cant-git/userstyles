@@ -1,7 +1,18 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("uploadgig.com") {
+  
   #dltimes, #dltimes + h4, #dltimes ~ p, .priceBox, .circle_success, .circle_success + .premium_dl {
     display: none !important;
   }
+
+}
+
+
+@-moz-document domain("filejoker.net") {
+
+  #non-premium, #tariffs, #secure, #payment-icons {
+    display: none !important;
+  }
+  
 }
