@@ -11,3 +11,9 @@
     display: none !important;
   }  
 }
+
+@-moz-document domain("rockfile.co") {
+  #hiddensection_2 + .row, #statement_2,  {
+    display: none !important;
+  }
+}
