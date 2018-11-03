@@ -13,7 +13,14 @@
 }
 
 @-moz-document domain("rockfile.co") {
-  #hiddensection_2 + .row, #statement_2,  {
+  #hiddensection_2 + .row, #statement_2,
+  #down1_ad_down ~ table, #down1_ad_down ~ div[style],
+  #hiddensection_ > div[style*="710px"] div:nth-child(3),
+  #hiddensection_ .row:nth-child(1), #hiddensection_ .table:nth-child(2) {
     display: none !important;
+  }
+  
+  #hiddensection_ > div[style*="710px"] div:nth-child(1) {
+    float: none !important;
   }
 }
