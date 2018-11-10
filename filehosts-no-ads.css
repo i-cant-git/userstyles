@@ -24,3 +24,9 @@
     float: none !important;
   }
 }
+
+@-moz-document domain("k2s.cc") {
+  .premium {
+    display: none !important;
+  }
+}
