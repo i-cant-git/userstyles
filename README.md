@@ -5,3 +5,4 @@ Userstyle for ads inside file hostings
 * uploadgig.com
 * filejoker.net
 * rockfile.co
+* k2s.cc
