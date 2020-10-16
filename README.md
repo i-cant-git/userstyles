@@ -1,4 +1,6 @@
-# filehosts-no-ads
+# Userstyles
+
+## filehosts-no-ads
 Userstyle for ads inside file hostings
 
 ## Supported hosts
