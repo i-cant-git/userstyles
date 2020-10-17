@@ -1,0 +1,6 @@
+@-moz-document domain("saucenao.com") {
+.resultmiscinfo img {
+	width: 32px;
+	height: 32px;
+}
+}
