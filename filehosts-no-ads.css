@@ -30,3 +30,22 @@
     display: none !important;
   }
 }
+
+@-moz-document domain("rapidgator.net") {
+.table-download tr:nth-child(n+2),
+.table-download th:nth-child(odd),
+.table-download .btn-premium,
+.table-download .descr {
+	display: none;
+}
+
+.table-download,
+.table-download table {
+	background-image: none;
+}
+
+.table-download th {
+	border: 1px solid #e2e2e2;
+	background-color: #f7f7f7;
+}
+}
