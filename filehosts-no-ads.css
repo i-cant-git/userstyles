@@ -1,34 +1,43 @@
-@namespace url(http://www.w3.org/1999/xhtml);
-
 @-moz-document domain("uploadgig.com") {
-  #dltimes, #dltimes + h4, #dltimes ~ p, .priceBox, .circle_success, .circle_success + .premium_dl {
-    display: none !important;
-  }
+#dltimes,
+#dltimes + h4,
+#dltimes ~ p,
+.priceBox,
+.circle_success,
+.circle_success + .premium_dl {
+	display: none !important;
+}
 }
 
 @-moz-document domain("filejoker.net") {
-  #non-premium, #tariffs, #secure, #payment-icons {
-    display: none !important;
-  }  
+#non-premium,
+#tariffs,
+#secure,
+#payment-icons {
+	display: none !important;
+}
 }
 
 @-moz-document domain("rockfile.co") {
-  #hiddensection_2 + .row, #statement_2,
-  #down1_ad_down ~ table, #down1_ad_down ~ div[style],
-  #hiddensection_ > div[style*="710px"] div:nth-child(3),
-  #hiddensection_ .row:nth-child(1), #hiddensection_ .table:nth-child(2) {
-    display: none !important;
-  }
-  
-  #hiddensection_ > div[style*="710px"] div:nth-child(1) {
-    float: none !important;
-  }
+#hiddensection_2 + .row,
+#statement_2,
+#down1_ad_down ~ table,
+#down1_ad_down ~ div[style],
+#hiddensection_ > div[style*="710px"] div:nth-child(3),
+#hiddensection_ .row:nth-child(1),
+#hiddensection_ .table:nth-child(2) {
+	display: none !important;
+}
+
+#hiddensection_ > div[style*="710px"] div:nth-child(1) {
+	float: none !important;
+}
 }
 
 @-moz-document domain("k2s.cc") {
-  .premium {
-    display: none !important;
-  }
+.premium {
+	display: none !important;
+}
 }
 
 @-moz-document domain("rapidgator.net") {
@@ -47,5 +56,17 @@
 .table-download th {
 	border: 1px solid #e2e2e2;
 	background-color: #f7f7f7;
+}
+}
+
+@-moz-document domain("nitroflare.com") {
+#pacsTables > div:nth-child(1) {
+	width: 50%;
+	margin: 0 auto;
+	float: initial !important;
+}
+
+#pacsTables > div:nth-child(2) {
+	display: none;
 }
 }
