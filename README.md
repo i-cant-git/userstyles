@@ -8,3 +8,4 @@ Userstyle for ads inside file hostings
 * filejoker.net
 * rockfile.co
 * k2s.cc
+* nitroflare.com
